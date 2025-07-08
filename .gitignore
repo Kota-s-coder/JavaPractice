@@ -1,0 +1,8 @@
+# Java class files
+*.class
+
+# VSCode設定（あれば）
+.vscode/
+
+# Macの不要ファイル
+.DS_Store
