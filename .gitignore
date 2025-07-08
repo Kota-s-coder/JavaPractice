@@ -6,3 +6,11 @@
 
 # Macの不要ファイル
 .DS_Store
+
+# buildディレクトリやbinディレクトリを除外
+bin/
+build/
+
+# Maven or Gradle を使うなら（将来的に）
+target/
+out/
