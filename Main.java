@@ -1,5 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("こんにちは、Java！");
+        int x = 5;
+        int y = 10;
+        String ans = "x+yは" + (x + y);
+        System.out.println(ans);
     }
 }
