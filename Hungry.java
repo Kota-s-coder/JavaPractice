@@ -10,7 +10,7 @@ public class Hungry {
             
             // 数字が入力されたかチェック
             if (scanner.hasNextInt()) {
-                isHungry = scanner.nextInt();
+                isHungry = scanner.nextInt(); // int isHungry = new java.util.Scanner(System.in).nextInt();
 
                 // 0 または 1 ならループ終了
                 if (isHungry == 0 || isHungry == 1) {
